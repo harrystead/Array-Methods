@@ -45,14 +45,26 @@ var icecream = [2, 5, 6, 8, 9, 9, 9, 456, 77];
 var icecreamNum = icecream.every(function(cone){
     console.log(cone >= 6);
 })
-
 //return false if one element does not match criteria.
 
 //ternary operator, cleaner version of if statement.
 var age = 19;
 var canDrive = age > 16 ? 'yes' : 'no';
 console.log(canDrive);
-//
+
+//arrow functions
+hello = () => {
+    return "Hello World!";
+  }
+  hello = () => "Hello World!";
+
+  let sum = (a, b) => a + b;
+
+  const numbers = [4, 5, 2, 6];
+
+const doubled = numbers.map((number) => {
+  return number * 2;
+});
 
 
 
