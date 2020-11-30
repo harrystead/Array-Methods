@@ -26,9 +26,9 @@ function myFunction(item){ //item of array
 //.map returns a new array, whereas .forEach doesn’t return anything. 
 //Basically, if you want to obtain a modified form of the previous array, you use .map, if you don’t want that, you use .forEach.
 
-var numbers = [1, 3, 6, 8, 11];
+var numb = [1, 3, 6, 8, 11];
 
-var lucky = numbers.filter(function(number) {
+var lucky = numb.filter(function(number) {
   return number > 2;
 });
 
@@ -65,6 +65,18 @@ hello = () => {
 const doubled = numbers.map((number) => {
   return number * 2;
 });
+
+//sort - with strings, it is simple.
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+fruits.sort();
+console.log(fruits);
+
+//sort - wth numbers -
+var points = [40, 100, 1, 5, 25, 10];
+points.sort(function(a, b){return b-a});
+
+
+
 
 
 
