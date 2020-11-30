@@ -34,4 +34,11 @@ var lucky = numbers.filter(function(number) {
 
 //The filter() method creates an array filled with all array elements that pass a test (provided as a function).
 
+var ages = [1, 2, 3, 4, 5];
+
+var ageRange = ages.some(function(age) {
+    console.log(age >= 2)
+})
+//The some() method checks if any of the elements in an array pass a test (provided as a function).
+
 
