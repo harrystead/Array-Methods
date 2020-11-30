@@ -41,4 +41,18 @@ var ageRange = ages.some(function(age) {
 })
 //The some() method checks if any of the elements in an array pass a test (provided as a function).
 
+var icecream = [2, 5, 6, 8, 9, 9, 9, 456, 77];
+var icecreamNum = icecream.every(function(cone){
+    console.log(cone >= 6);
+})
+
+//return false if one element does not match criteria.
+
+//ternary operator, cleaner version of if statement.
+var age = 19;
+var canDrive = age > 16 ? 'yes' : 'no';
+console.log(canDrive);
+//
+
+
 
