@@ -75,7 +75,16 @@ console.log(fruits);
 var points = [40, 100, 1, 5, 25, 10];
 points.sort(function(a, b){return b-a});
 
+//copying arrays
+[...fruits];
 
+const name = "harry";
+const letters = name.split("");
+//split creates a seperate array with letters of name var.
+
+variable1.concat(variable2); //creates a new array with both arrays.
+
+[...var1, ...var2]; // same as using concat 
 
 
 
